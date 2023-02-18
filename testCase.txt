@@ -1,0 +1,40 @@
+Test Case
+
+Module Name: Score counter
+Test Case ID: Score 1
+Tester Name: Jared
+Test Case Description: Test if the scoreboard is adding wins/loses correctly.
+Prerequisite: Stable internet connection, browser
+Tester’s Name: Jared
+Environmental Information: Mac OS, laptop
+
+Test Scenario: Checking that win do not continue to total up in the loss column.
+
+Test Case ID: 1
+Test Steps: Click “draw”, select random bot, click “duel”, 
+Test Input: Selected “Beta” & “Brobot”
+Expected Results: You win, win counter increases by 1.
+Actual Results: You win, loss counter increased by 1
+Status: Fail
+Comments: None 
+
+
+Bug Report
+
+Bug: Scoreboard is increasing losses on win.
+Expect Behavior: Wins increases win counter, loses increase loss counter.
+Current Behavior: Wins increase loss counter, loses increase loss counter.
+Step to Reproduce: 
+Win a game
+Environment: Using chrome browser on Mac OS.
+Detailed Description:  Played several games all wins and loses resulted in the scoreboard reflecting a loss.  Used different combo of robots for same results. 
+ 
+Bug Report
+
+Bug: Show all robots button does not display robots.
+Expect Behavior: To see all available robots to the player.
+Current Behavior: None are displayed.
+Step to Reproduce: 
+Clicked show robots button several times after refreshing browser without them displaying.
+Environment: Using chrome browser on Mac OS.
+Detailed Description: Robots are not being displayed when clicking the “show all robots” button.
